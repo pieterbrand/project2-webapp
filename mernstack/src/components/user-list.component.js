@@ -51,7 +51,9 @@ export default class UserList extends Component
             e.preventDefault();
         
             const user = {
-              firstname: this.state.firstname
+              firstname: this.state.firstname,
+              age: this.state.age,
+              cellNum: this.state.cellNum
             }
         
             console.log(user);
