@@ -19,10 +19,10 @@ const userSchema = new Schema(
     {
         type: String, required: true
     },
-    birth:
+    /*birth:
     {
         type: Date, required: true
-    }
+    }*/
 },
 {
     timestamps: true,
