@@ -13,14 +13,14 @@ router.route('/add').post((req, res) =>
     const firstname = req.body.firstname;
     const age = Number(req.body.age);
     const cellNum = req.body.cellNum;
-    //const birth = Date.parse(req.body.birth);
+   
 
     const newUser = new User(
         {
             firstname,
             age,
             cellNum,
-            //birth,
+            
         });
 
     newUser.save()
