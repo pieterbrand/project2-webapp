@@ -1,8 +1,6 @@
-const MongoClient = require('mongodb').MongoClient;
-const express = require("express");
-const bodyParser = require("body-parser");
+const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
-const cors = require("cors");
 
 require('dotenv').config();
 //var corsOptions = {origin: "https://pieterproject2.herokuapp.com/"};

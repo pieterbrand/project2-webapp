@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.3",
     "mongodb": "^3.6.3",
@@ -39,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "npm-install-webpack-plugin": "^4.0.5",
+    "webpack-cli": "^4.2.0"
   }
 }
