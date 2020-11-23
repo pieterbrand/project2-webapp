@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require("cors");
 
 require('dotenv').config();
-var corsOptions = {origin: "https://pieterproject2.herokuapp.com/"};
+//var corsOptions = {origin: "https://pieterproject2.herokuapp.com/"};
 
 const app = express();
 const PORT = process.env.PORT || 5000;

@@ -13,14 +13,14 @@ router.route('/add').post((req, res) =>
     const firstname = req.body.firstname;
     const age = Number(req.body.age);
     const cellNum = req.body.cellNum;
-   
+
 
     const newUser = new User(
         {
             firstname,
             age,
             cellNum,
-            
+
         });
 
     newUser.save()
@@ -49,8 +49,7 @@ router.route('/update/:id').post((req, res)=>
             users.age = Number(req.body.age);
             users.cellNum = req.body.cellNum;
 
-            
-            users.save()
+
             .then(() => res.json('User updated'))
             .catch(err => res.status(400).json('Error: '+ err))
         }) 
